@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-image: url('../../assets/fundoverde.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    color: #ffffff;
+    
+    padding: 30px 0 0 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 700px;
+    width: 90%;
+    margin: 0 auto;
+    background-color: rgba(18, 43, 28, 0.95);
+    padding: 25px;
+    border-radius: 10px;
+    border: 1px solid #006437;
+    flex: 1;
+}
+
+h1 {
+    font-size: 1.8rem;
+    margin-bottom: 5px;
+}
+
+.subtitulo {
+    font-size: 0.85rem;
+    color: #a8c9b4;
+    margin-bottom: 20px;
+}
+
+/* Formulário */
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+label {
+    font-size: 0.8rem;
+    font-weight: bold;
+    color: #00ff75;
+    margin: 10px 0 4px 0;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #234c32;
+    background-color: #0a170f;
+    color: #ffffff;
+    font-size: 0.9rem;
+}
+
+button {
+    margin-top: 15px;
+    padding: 12px;
+    background-color: #008746;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00b35c;
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.05);
+}
+
+.info-box, .redes-sociais, .mapa-box {
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px solid #006437;
+    text-align: left;
+}
+
+h3 {
+    font-size: 1rem;
+    color: #00ff75;
+    margin-bottom: 10px;
+}
+
+.info-box p {
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+}
+
+.icones {
+    display: flex;
+    gap: 15px;
+}
+
+.icones a {
+    color: #ffffff;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.icones a:hover {
+    color: #00ff75;
+    transform: scale(1.15);
+}
+
+.mapa-box iframe {
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.rodape-moderno {
+    width: 100%;
+    margin-top: 40px;
+    padding: 30px 0;
+    border: none;
+    background-color: #0d0d0d;
+    background: #0d0d0d;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape-links {
+    display: flex;
+    gap: 50px; 
+}
+
+.rodape-links a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600; 
+    letter-spacing: 2px; 
+    text-transform: uppercase;
+    text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.9); 
+    transition: all 0.3s ease;
+}
+
+.rodape-links a:hover {
+    color: rgb(15, 194, 96);
+    transform: scale(1.15);
+}
